@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+    
+}
+body{
+    overflow-x: hidden;
+}
+
+.heading-txt{
+    font-family: "Anton", sans-serif;
+    font-size: 90px;
+    color: white;
+}
+
+.banner-content, h4, p{
+    font-weight: 200;
+    color: white;
+}
+
+.banner-content, p{
+    font-size: 14px;
+}
+
+.forgot-pw{
+    text-decoration: none;
+}
+
+.custom-login-button {
+    display: inline-block;
+    font-size: 18px; 
+    width: 100%; 
+    padding: 0.6rem 1rem;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    background-color:#0e2e81;
+  }
+
+  .custom-login-button:hover{
+    background-color: #1943ab;
+    transition: 0.2s ease-in;
+  }
+  
+
+.custom-border-button {
+    display: inline-block;
+    font-size: 16px; 
+    width: 100%; 
+    padding: 0.6rem 1rem;
+    border: 1.5px solid #b6b6b6;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    background-color:white;
+  }
+  
+  .custom-border-button i {
+    margin-right: 0.5rem; /* Equivalent to me-2 */
+  }
+  
+  .custom-border-button:hover {
+    background-color: white;
+    color: #0e2e81;
+    border-color: #0e2e81;
+    transition: 0.2s ease-in;
+  }
+
+.para{
+  font-weight: 200;
+}
+
+.logbut:hover{
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  transition: 0.2s ease-in;
+}
